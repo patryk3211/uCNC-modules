@@ -25,8 +25,8 @@ extern "C"
 #endif
 
 // Used for RPi type screens
-// #define TFT_ALWAYS_16BIT
-// #include "driver/ILI9486.h"
+#define TFT_ALWAYS_16BIT
+#include "driver/ILI9486.h"
 
 
 // Use LVGL driver
